@@ -19,14 +19,14 @@ public class Squarea {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("szele? ");
+        System.out.print("Width? ");
         double szele = sc.nextDouble();
-        System.out.print("hossza? ");
+        System.out.print("length? ");
         double hossza = sc.nextDouble();
         
-        System.out.println("a teglalapod terulete: "+(szele*hossza));
+        System.out.println("area of the square: "+(szele*hossza));
         
-        System.out.println("a teglalapod kerulete: "+(szele+hossza)*2);
+        System.out.println("circumference of the square: "+(szele+hossza)*2);
         
         
         
